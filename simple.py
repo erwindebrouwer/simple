@@ -18,7 +18,8 @@ def Analyze_Number(number):
     if int(number) == 100:
         print("No way! That's exactly 100!")
 #
-# get input
-number = input("Number: ")
-Check_Number(number)
-Analyze_Number(number)
+if __name__ == "__main__":
+    # get input
+    number = input("Number: ")
+    Check_Number(number)
+    Analyze_Number(number)
